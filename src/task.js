@@ -1,4 +1,5 @@
 import React from 'react';
+import * as Statuses from './statuses';
 
 export default class Task extends React.Component {
   render() {
@@ -58,10 +59,10 @@ class CanceledIcon extends React.Component {
 }
 
 const ICONS = {
-  complete: CompleteIcon,
-  incomplete: IncompleteIcon,
-  in_progress: InProgressIcon,
-  canceled: CanceledIcon
+  [Statuses.COMPLETE]: CompleteIcon,
+  [Statuses.INCOMPLETE]: IncompleteIcon,
+  [Statuses.IN_PROGRESS]: InProgressIcon,
+  [Statuses.CANCELED]: CanceledIcon
 };
 
 function icon(event) {

@@ -1,0 +1,10 @@
+.ReactModal__Overlay {
+  /* hack to avoid calendar showing up on top of modal. This will cause bugs :( */
+  z-index: 999;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}

@@ -17,6 +17,7 @@ export default class Calendar extends React.Component {
         <BigCalendar
           events={this.props.tasks}
           defaultView={BigCalendar.Views.MONTH}
+          onSelectEvent={this.props.editTask}
           components={{
             event: Task
           }}
