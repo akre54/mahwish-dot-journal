@@ -1,0 +1,21 @@
+.tags {
+  height: calc(100vh - 150px);
+  width: 210px;
+
+  background: #efefef;
+
+  margin: 0;
+  padding: 1em 0;
+
+  list-style: none;
+}
+
+.tag {
+  border: 1px solid;
+  border-radius: 2px;
+
+  margin: 1em;
+  padding: 0.5em 2em;
+
+  text-align: left;
+}

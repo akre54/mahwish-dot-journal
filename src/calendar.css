@@ -1,0 +1,9 @@
+.calendar-container {
+  width: 100%;
+}
+
+/* Override defaults from ReactBigCalendar */
+.calendar-container .rbc-event {
+  color: #444;
+  background: none;
+}
